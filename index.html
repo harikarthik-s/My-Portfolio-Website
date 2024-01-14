@@ -45,11 +45,11 @@
                             <i class="ri-book-line"></i> Qualifications
                         </a>
                     </li>
-                    <li class="nav__itemm">
+                    <!-- <li class="nav__itemm">
                         <a href="#achievements" class="nav__link">
                             <i class="ri-trophy-line"></i> Achievements
                         </a>
-                    </li>
+                    </li> -->
                     <li class="nav__itemm">
                         <a href="#projects" class="nav__link">
                             <i class="ri-macbook-line"></i> Projects
@@ -87,12 +87,13 @@
         <section class="home section" id="home">
             <div class="home__container container grid section__border">
                 <div class="home__data grid">
-                    
+                    <p class="home__p1">
+                        hello(); I'm
+                    </p>
                     <h1 class="home__title">
-                        Hi, I'm Karthik <br>
-                        Software Developer <br>
-                        Based in Bengaluru <br>
+                        Hari Karthik <br>
                     </h1>
+                    <p class="home__p2"><span class="home__p1" >I'm into </span><span class="typedText"></span></p>
                     <div class="home__blob grid">
                         <div class="home__perfil">
                             <img src="assets/img/me.png" alt="home perfil">
@@ -100,29 +101,22 @@
                         <img src="assets/img/shape-wawes.svg" alt="" class="home__shape-wawes">
                         <img src="assets/img/shape-circle.svg" alt="" class="home__shape-circle">
                     </div>
-                    <ul class="home__social">
-                        <a href="https://www.linkedin.com/in/harikarthik/" target="_blank"
-                            class="home__social-link">
-                            <i class="ri-linkedin-box-line"></i>
-                        </a>
-                        <a href="https://www.github.com/harikarthik-s" target="_blank" class="home__social-link">
-                            <i class="ri-github-line"></i>
-                        </a>
-                        <a href="https://www.twitter.com/harikarthik" target="_blank" class="home__social-link">
-                            <i class="ri-twitter-line"></i>
-                        </a>
-                    </ul>
+
                 </div>
                 <!--  HOME INFO 1  -->
                 <div class="home__info">
                     <div>
                         <h3 class="home__info-title">
-                            BIOGRAPHY
+                            BIO - Passionate about:
                         </h3>
                         <p class="home__info-description">
-                            Hi, I'm Karthik, Software Developer.
-                            Passionate about solving algorithmic problems
-                            and designing interactive websites. Based in Bengaluru.
+                            &#x2022 Meticulous Coder <br>
+                            &#x2022 Solve algorithmic problems <br>
+                            &#x2022 Frontend Web Designs <br>
+                            &#x2022 Visualize Data patterns
+                            <br>
+                            &#x2022 Business Solutions
+                            
                         </p>
                     </div>
                     <div>
@@ -131,18 +125,26 @@
                         </h3>
                         <p class="home__info-description">
                             Bengaluru, India <br>
-                            harikarthiks15@gmail.com <br>
-                            +91-7985397630 <br>
+                            <a class="tomail" href="mailto:harikarthiks15@gmail.com">harikarthiks15@gmail.com</a> <br>
+                            +91-9606505876 <br>
                         </p>
                     </div>
                     <div>
                         <h3 class="home__info-title">
-                            ACHIEVEMENTS
+                            SOCIAL
                         </h3>
-                        <p class="home__info-description">
-                            <!-- Winner - Smart India Hackathon, 2022 <br>
-                            Selected as - GitHub Extern, 2022 <br> -->
-                        </p>
+                        <ul class="home__social">
+                        <a href="https://www.linkedin.com/in/harikarthik/" target="_blank"
+                            class="home__social-link">
+                            <i class="ri-linkedin-box-line"></i>
+                        </a>
+                        <a href="https://github.com/harikarthik-s" target="_blank" class="home__social-link">
+                            <i class="ri-github-line"></i>
+                        </a>
+                        <a href="https://twitter.com/hari__karthik" target="_blank" class="home__social-link">
+                            <i class="ri-twitter-line"></i>
+                        </a>
+                    </ul>
                     </div>
                 </div>
     
@@ -164,13 +166,8 @@
                             10+
                         </p>
                     </div>
-                    <div>
-                        <h3 class="home__info-title">
-                            COMPANIES WORKED FOR
-                        </h3>
-                        <p class="home__info-number">
-                            2+
-                        </p>
+                    <div class="btn-container">
+                        <button class="btn" onclick="window.open('./assets/#')"><i class="ri-download-line"></i></i> Download CV</button>
                     </div>
                 </div>
     
@@ -183,21 +180,21 @@
                 Skills
             </h2>
             <span class="section__subtitle">
-                My top skills
+                My Tech Stack
             </span>
             <div class="skills__container container grid section__border">
                 <!--  SKILLS 1  -->
                 <div class="skills__content">
                     <h3 class="skills__title">
-                        <i class="ri-braces-line"></i> Software Developer
+                        <i class="ri-braces-line"></i> Development
                     </h3>
                     <div class="skills__info">
                         <div class="skills__data">
                             <div class="skills__blob">
-                                <img src="assets/img/icons8-java-120.svg" alt="skills image">
+                                <img src="assets/img/html-1.svg" alt="skills image">
                             </div>
                             <h3 class="skills__name">
-                                Java
+                                HTML 5
                             </h3>
                             <span class="skills__subtitle">
                                 Advanced
@@ -205,10 +202,21 @@
                         </div>
                         <div class="skills__data">
                             <div class="skills__blob">
-                                <img src="assets/img/icons8-android-studio-100.svg" alt="skills image">
+                                <img src="assets/img/css-3.svg" alt="skills image">
                             </div>
                             <h3 class="skills__name">
-                                Android
+                                CSS 3
+                            </h3>
+                            <span class="skills__subtitle">
+                                Advanced
+                            </span>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="assets/img/logo-javascript.svg" alt="skills image">
+                            </div>
+                            <h3 class="skills__name">
+                                JavaScript
                             </h3>
                             <span class="skills__subtitle">
                                 Intermediate
@@ -216,21 +224,10 @@
                         </div>
                         <div class="skills__data">
                             <div class="skills__blob">
-                                <img src="assets/img/icons8-flutter-120.svg" alt="skills image">
+                                <img src="assets/img/react-2.svg" alt="skills image">
                             </div>
                             <h3 class="skills__name">
-                                Flutter
-                            </h3>
-                            <span class="skills__subtitle">
-                                Intermediate
-                            </span>
-                        </div>
-                        <div class="skills__data">
-                            <div class="skills__blob">
-                                <img src="assets/img/icons8-google-firebase-console-120.svg" alt="skills image">
-                            </div>
-                            <h3 class="skills__name">
-                                Firebase
+                                React
                             </h3>
                             <span class="skills__subtitle">
                                 Intermediate
@@ -247,31 +244,32 @@
                                 Advanced
                             </span>
                         </div>
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="assets/img/icons8-java-120.svg" alt="skills image">
+                            </div>
+                            <h3 class="skills__name">
+                                Java
+                            </h3>
+                            <span class="skills__subtitle">
+                                Advanced
+                            </span>
+                        </div>
+                        
                     </div>
                 </div>
                 <!--  SKILLS 2  -->
                 <div class="skills__content">
                     <h3 class="skills__title">
-                        <i class="ri-braces-line"></i> Computer Fundamentals
+                        <i class="ri-database-2-line"></i> Data Science
                     </h3>
                     <div class="skills__info">
                         <div class="skills__data">
                             <div class="skills__blob">
-                                <img src="assets/img/icons8-binary-code-100.png" alt="skills image">
+                                <img src="assets/img/icons8-database-administrator-48.png" alt="skills image">
                             </div>
                             <h3 class="skills__name">
-                                DSA
-                            </h3>
-                            <span class="skills__subtitle">
-                                Intermediate
-                            </span>
-                        </div>
-                        <div class="skills__data">
-                            <div class="skills__blob">
-                                <img src="assets/img/icons8-plugin-100.png" alt="skills image">
-                            </div>
-                            <h3 class="skills__name">
-                                OOPS
+                                SQL
                             </h3>
                             <span class="skills__subtitle">
                                 Advanced
@@ -279,37 +277,49 @@
                         </div>
                         <div class="skills__data">
                             <div class="skills__blob">
-                                <img src="assets/img/icons8-database-100.png" alt="skills image">
+                                <img src="assets/img/icons8-python-48.png" alt="skills image">
                             </div>
                             <h3 class="skills__name">
-                                DBMS
-                            </h3>
-                            <span class="skills__subtitle">
-                                Intermediate
-                            </span>
-                        </div>
-                        <div class="skills__data">
-                            <div class="skills__blob">
-                                <img src="assets/img/icons8-console-100.png" alt="skills image">
-                            </div>
-                            <h3 class="skills__name">
-                                OS
-                            </h3>
-                            <span class="skills__subtitle">
-                                Intermediate
-                            </span>
-                        </div>
-                        <div class="skills__data">
-                            <div class="skills__blob">
-                                <img src="assets/img/icons8-multicast-100.png" alt="skills image">
-                            </div>
-                            <h3 class="skills__name">
-                                CN
+                                Python
                             </h3>
                             <span class="skills__subtitle">
                                 Advanced
                             </span>
                         </div>
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="assets/img/icons8-r-project-48.png" alt="skills image">
+                            </div>
+                            <h3 class="skills__name">
+                                R
+                            </h3>
+                            <span class="skills__subtitle">
+                                Intermediate
+                            </span>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="assets/img/icons8-excel-48.png" alt="skills image">
+                            </div>
+                            <h3 class="skills__name">
+                                MS Excel
+                            </h3>
+                            <span class="skills__subtitle">
+                                Advanced
+                            </span>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="assets/img/icons8-tableau-software-48.png" alt="skills image">
+                            </div>
+                            <h3 class="skills__name">
+                                Tableau
+                            </h3>
+                            <span class="skills__subtitle">
+                                Intermediate
+                            </span>
+                        </div>
+                        
                     </div>
                 </div>
             </div>
@@ -332,7 +342,7 @@
                     <div class="qualification__info">
                         <div>
                             <h3 class="qualification__name">
-                                B.Tech. (Information Technology)
+                                B.Tech. (Information Technology) [3.7 GPA] 
                             </h3>
                             <span class="qualification__country">
                                 Alliance University, Bengaluru
@@ -343,7 +353,7 @@
                         </div>
                         <div>
                             <h3 class="qualification__name">
-                                Senior Secondary Education (PUC)
+                                Pre University (PUC) [95%]
                             </h3>
                             <span class="qualification__country">
                                 Christ Junior College, Bengaluru
@@ -354,7 +364,7 @@
                         </div>
                         <div>
                             <h3 class="qualification__name">
-                                High School
+                                Senior Secondary [99%]
                             </h3>
                             <span class="qualification__country">
                                 Saraswathi Vidya Mandir
@@ -393,28 +403,7 @@
                                 June 2023 - July 2023
                             </span>
                         </div>
-                        <!-- <div>
-                            <h3 class="qualification__name">
-                                SDE Intern
-                            </h3>
-                            <span class="qualification__country">
-                                Surya Software Systems - Bangalore
-                            </span>
-                            <span class="qualification__year">
-                                Sep 2021 - Dec 2021
-                            </span>
-                        </div>
-                        <div>
-                            <h3 class="qualification__name">
-                                UI/UX Designer
-                            </h3>
-                            <span class="qualification__country">
-                                Seegate Corporation - Mumbai
-                            </span>
-                            <span class="qualification__year">
-                                May 2021 - Jul 2021
-                            </span>
-                        </div> -->
+                       
                     </div>
                 </div>
             </div>
@@ -422,7 +411,7 @@
             <img src="assets/img/shape-circle.svg" alt="qualification image" class="qualification__img">
         </section>
     
-                <!--ACHIEVEMENTS-->
+                <!-- ACHIEVEMENTS
                 <section class="achievements section" id="achievements">
                     <h2 class="section__title">
                         Achievements
@@ -434,11 +423,11 @@
                         <div class="achievements__card">
                             <i class="ri-trophy-line"></i>
                             <h2 class="achievements__title">
-                                <!-- Winner <br>
-                                Smart India Hackathon 2022 -->
+                                Winner <br>
+                                Hackathon 2022
                             </h2>
                             <p class="achievements__description">
-                                <!-- Led a team of 6 and won Smart India Hackathon, the biggest hackathon of India. -->
+                                Led a team of 3 and won .
                             </p>
                             <div class="achievements__border">
                             </div>
@@ -446,11 +435,11 @@
                         <div class="achievements__card">
                             <i class="ri-code-line"></i>
                             <h2 class="achievements__title">
-                                <!-- Mentee <br>
-                                GitHub Externship 2022 -->
+                                Mentee <br>
+                                
                             </h2>
                             <p class="achievements__description">
-                                <!-- Selected as a GitHub Extern amongst 14000+ applicants. -->
+                                
                             </p>
                             <div class="achievements__border">
                             </div>
@@ -458,17 +447,16 @@
                         <div class="achievements__card">
                             <i class="ri-trophy-line"></i>
                             <h2 class="achievements__title">
-                                <!-- Finalist <br>
-                                Hack N Pitch 2021 -->
+                                
                             </h2>
                             <p class="achievements__description">
-                                <!-- Led a team of 5 and developed a full stack social media Android app. -->
+                                
                             </p>
                             <div class="achievements__border">
                             </div>
                         </div>
                     </div>
-                </section>
+                </section> -->
     
             <!--PROJECTS-->
             <section class="projects section" id="projects">
@@ -483,45 +471,76 @@
                         <div class="swiper-wrapper">
                             <!--PROJECT 1-->
                             <div class="projects__content swiper-slide">
-                                <img src="assets/img/project1.jpg" alt="projects image" class="projects__img">
+                                <img src="assets/img/conwoy.webp" alt="projects image" class="projects__img">
                                 <div>
                                     <span class="projects__subtitle">
-                                        <!-- Android, fullstack -->
+                                        Advanced Python 
                                     </span>
                                     <h1 class="projects__title">
-                                        <!-- CollegeLink -->
+                                        Conway's Game of Life
                                     </h1>
-                                    <a href="https://www.youtube.com/watch?v=puaD4Zb_2Yo" class="projects__button">
+                                    <a href="#" class="projects__button">
                                         Demo <i class="ri-arrow-right-line"></i>
                                     </a>
                                 </div>
                             </div>
                             <!--PROJECT 2-->
                             <div class="projects__content swiper-slide">
-                                <img src="assets/img/project2.jpg" alt="projects image" class="projects__img">
+                                <img src="assets/img/streak.webp" alt="projects image" class="projects__img">
                                 <div>
                                     <span class="projects__subtitle">
-                                        <!-- Android, front-end -->
+                                        SQL &#x2022 Data Science
                                     </span>
                                     <h1 class="projects__title">
-                                        <!-- EtherX -->
+                                        Student Streaks Analysis
                                     </h1>
-                                    <a href="https://github.com/kritikmodi/EtherX" class="projects__button">
+                                    <a href="#" class="projects__button">
                                         Demo <i class="ri-arrow-right-line"></i>
                                     </a>
                                 </div>
                             </div>
                             <!--==================== PROJECT 3 ====================-->
                             <div class="projects__content swiper-slide">
-                                <img src="assets/img/project3.jpg" alt="projects image" class="projects__img">
+                                <img src="assets/img/encrypt.webp" alt="projects image" class="projects__img">
                                 <div>
                                     <span class="projects__subtitle">
-                                        <!-- Flutter, front-end -->
+                                        Intermediate Python
                                     </span>
                                     <h1 class="projects__title">
-                                        <!-- Smart Parking App -->
+                                        Encryption and Decryption
                                     </h1>
-                                    <a href="https://www.youtube.com/watch?v=qzlBGnAuPHw" class="projects__button">
+                                    <a href="#" class="projects__button">
+                                        Demo <i class="ri-arrow-right-line"></i>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <!--==================== PROJECT 4 ====================-->
+                            <div class="projects__content swiper-slide">
+                                <img src="assets/img/parallax2.jpeg" alt="projects image" class="projects__img">
+                                <div>
+                                    <span class="projects__subtitle">
+                                        CSS &#x2022 Frontend
+                                    </span>
+                                    <h1 class="projects__title">
+                                        Parallax Effect
+                                    </h1>
+                                    <a href="#" class="projects__button">
+                                        Demo <i class="ri-arrow-right-line"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <!--==================== PROJECT 5 ====================-->
+                            <div class="projects__content swiper-slide">
+                                <img src="assets/img/photo1.jpeg" alt="projects image" class="projects__img">
+                                <div>
+                                    <span class="projects__subtitle">
+                                        CSS &#x2022 Frontend
+                                    </span>
+                                    <h1 class="projects__title">
+                                        Photography Gallery
+                                    </h1>
+                                    <a href="#" class="projects__button">
                                         Demo <i class="ri-arrow-right-line"></i>
                                     </a>
                                 </div>
@@ -563,8 +582,7 @@
                             <span class="contact__data-title">
                                 Email
                             </span>
-                            <span class="contact__data-info">
-                                harikarthiks15@gmail.com
+                            <span class="contact__data-info"> <a class="tomail" href="mailto:harikarthiks15@gmail.com">harikarthiks15@gmail.com</a>
                             </span>
                         </div>
                         <div class="contact__data">
@@ -579,7 +597,7 @@
                                 Text me <i class="ri-arrow-right-line"></i>
                             </a>
                         </div>
-                        <div class="contact__data">
+                        <!-- <div class="contact__data">
                             <span class="contact__data-title">
                                 Telegram
                             </span>
@@ -589,7 +607,7 @@
                             <a href="https://t.me/kritikmodi" target="_blank" class="contact__button">
                                 Text me <i class="ri-arrow-right-line"></i>
                             </a>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
                 <div class="contact__content">
@@ -635,7 +653,7 @@
                 Hari Karthik
             </h1>
             <p>
-                Software Developer
+                Developer &#x2022 Data Analyst
             </p>
             <ul class="footer__list">
                 <li>
@@ -649,13 +667,13 @@
                 </li>
             </ul>
             <ul class="footer__social">
-                <a href="https://www.linkedin.com/in/harikarthik-s/" target="_blank" class="footer__social-link">
+                <a href="https://www.linkedin.com/in/harikarthik/" target="_blank" class="footer__social-link">
                     <i class="ri-linkedin-box-line"></i>
                 </a>
-                <a href="https://www.github.com/harikarthiks" target="_blank" class="footer__social-link">
+                <a href="https://github.com/harikarthik-s" target="_blank" class="footer__social-link">
                     <i class="ri-github-line"></i>
                 </a>
-                <a href="https://www.twitter.com/harikarthik" target="_blank" class="footer__social-link">
+                <a href="https://twitter.com/hari__karthik" target="_blank" class="footer__social-link">
                     <i class="ri-twitter-line"></i>
                 </a>
             </ul>
@@ -674,6 +692,9 @@
 
     <!-- SCROLLREVEAL -->
     <script src="assets/js/scrollreveal.min.js"></script>
+
+    <!-- Typing -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     
     <!--=============== SWIPER JS ===============-->
     <script src="assets/js/swiper-bundle.min.js"></script>
