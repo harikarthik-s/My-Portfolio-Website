@@ -361,6 +361,12 @@ body.dark-theme {
     transition: background .4s;
 }
 
+.home__perfil:hover{
+    transform: scale(1.03);
+    filter: drop-shadow(0 0 10px #333);
+    transition: 0.3s;
+}
+
 .home__perfil {
     width: 170px;
     height: 260px;
@@ -386,7 +392,7 @@ body.dark-theme {
     width: 50px;
     left: -1.5rem;
     top: 5rem;
-    z-index: -1;
+    z-index: -3;
 }
 
 .home__shape-circle {
