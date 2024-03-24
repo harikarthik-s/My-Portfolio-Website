@@ -157,6 +157,12 @@ body.dark-theme {
     color: rgb(53, 53, 53);
 }
 
+.dark-theme .home__perfil:hover {
+    transform: scale(1.03);
+    filter: drop-shadow(0 0 10px #ffffff76);
+    transition: 0.3s;
+}
+
 /*REUSED CSS CLASSES*/
 .container {
     max-width: 1024px;
@@ -376,10 +382,12 @@ body.dark-theme {
     display: flex;
     justify-content: center;
     align-items: flex-end;
+    transition: .3s;
 }
 
 .home__perfil img {
     width: 100%;
+    transition: .3s;
 }
 
 .home__shape-wawes,
