@@ -1,6 +1,6 @@
 // Typing effect
 var typingEffect = new Typed(".typedText", {
-  strings: ["Web Development", "Data Science", "App Development"],
+  strings: ["Web Development", "Data Science", "Machine Learning"],
   loop: true,
   typeSpeed: 100,
   backSpeed: 80,
